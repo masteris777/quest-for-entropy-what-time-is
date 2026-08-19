@@ -1,0 +1,41 @@
+  [PASS] the Python model reproduces the page's JavaScript exactly (article: a line-for-line port of the page): 20 seed x slider combinations, every count identical
+
+$ python sweep.py
+slider 0.00    65.6% of pairs concurrent (mean over 500 worlds)
+slider 0.14    59.5% of pairs concurrent (mean over 500 worlds)
+slider 0.29    51.9% of pairs concurrent (mean over 500 worlds)
+slider 0.43    44.9% of pairs concurrent (mean over 500 worlds)
+slider 0.57    39.6% of pairs concurrent (mean over 500 worlds)
+slider 0.71    33.1% of pairs concurrent (mean over 500 worlds)
+slider 0.86    23.7% of pairs concurrent (mean over 500 worlds)
+slider 1.00    17.6% of pairs concurrent (mean over 500 worlds)
+
+worlds generated              4000
+event pairs compared          1973285
+pairs the two observers
+  wrote in opposite orders    184292
+  ...that were causal         0   <- must be zero
+
+slider down: 66% of pairs have no order at all
+slider up:   18%
+
+wrote metrics_sweep.json
+  [PASS] two observers never disagree about a causal pair (article: zero causally related pairs ever swapped): 1,973,285 pairs compared across 4,000 worlds, 184,292 written in opposite orders, 0 of them causal
+  [PASS] with the slider down, about two thirds of pairs have no order at all (article: two thirds of all event pairs are concurrent): 65.6% concurrent
+  [PASS] with the slider up, that falls to about one in six (article: about one in six): 17.6% concurrent, down from 65.6%
+  [PASS] the slider moves it monotonically - more news, less concurrency: 8 settings, falling all the way
+
+$ python assets/make_figures.py
+stamps: {'F': (2, 3, 1), 'a1': (1, 0, 0), 'a2': (2, 0, 0), 'a3': (3, 0, 0), 'a4': (4, 3, 1), 'b1': (0, 1, 0), 'b2': (0, 2, 1), 'b4': (2, 4, 2), 'c1': (0, 0, 1), 'c2': (0, 0, 2), 'c3': (2, 3, 3), 'c4': (3, 3, 4)}
+wrote assets/hero.png
+  [PASS] in the hero image, the bookkeeping and the light cones agree for every event (article: same picture, two vocabularies): figure rebuilt into assets/; its own assertion puts all 12 events in the same region by tally comparison and by light cone
+
+======================================================================
+[PASS] the Python model reproduces the page's JavaScript exactly (article: a line-for-line port of the page)
+[PASS] two observers never disagree about a causal pair (article: zero causally related pairs ever swapped)
+[PASS] with the slider down, about two thirds of pairs have no order at all (article: two thirds of all event pairs are concurrent)
+[PASS] with the slider up, that falls to about one in six (article: about one in six)
+[PASS] the slider moves it monotonically - more news, less concurrency
+[PASS] in the hero image, the bookkeeping and the light cones agree for every event (article: same picture, two vocabularies)
+======================================================================
+all 6 checks reproduced
