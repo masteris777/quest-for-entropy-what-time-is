@@ -265,7 +265,7 @@ Thinking about time is what gave me the missing idea.
 
 The model I have now passes every exam I have built for it: 139 checks, zero failures, across quantum mechanics, relativity, black holes and the expanding universe. That is not the same as being right — a test battery you wrote yourself is a battery you can accidentally write to pass — so it arrives with its debts named out loud. The Born rule is still half-imported. The entangled bookkeeping costs 2^k and always will. And the model overshoots Mercury's orbit by 17%: it carries β = ½ where general relativity has β = 1. That last one is a real, falsifiable deviation, and it is the sharpest thing anybody can hit me with.
 
-Next time: **The Iceberg** — a blockchain-inspired model of the universe.
+Next time: **The Iceberg Model** — a compute model of the universe that finally passes my quantum tests.
 
 ---
 
