@@ -1,5 +1,7 @@
 # What Time Is — companion code
 
+**Article:** [Quest for Entropy #12 — "What Time Is"](https://questforentropy.substack.com/p/what-time-is)
+
 Everything the article measures, runnable from scratch.
 
 ## Run it
