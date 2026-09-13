@@ -2,6 +2,8 @@
 
 **Article:** [Quest for Entropy #12 — "What Time Is"](https://questforentropy.substack.com/p/what-time-is)
 
+**Series:** ← [#11 The Observer That Had To Touch](https://github.com/masteris777/quest-for-entropy-the-observer-that-had-to-touch) · [#13 The Iceberg Model](https://github.com/masteris777/quest-for-entropy-the-iceberg-model) →
+
 Everything the article measures, runnable from scratch.
 
 ## Run it
